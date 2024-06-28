@@ -5,6 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
-    font-family: Arial, SansSerif, sans-serif;
+    background: linear-gradient(#74d4db, #6ddac1);
+    font-family: Roboto, Arial, SansSerif, sans-serif;
 }

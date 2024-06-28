@@ -1,5 +1,4 @@
 .nav {
-    max-width: 1400px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -12,6 +11,9 @@
     align-items: center;
     gap: 12px;
     color: white;
+}
+.logo span {
+    font-size: 18px;
 }
 .logo > img {
     width: 50px;
@@ -27,6 +29,7 @@
 }
 .link li {
     list-style-type: none;
+    font-size: 20px;
 }
 .nav-link {
     text-decoration: none;
@@ -34,18 +37,19 @@
     transition: 0.4s;
 }
 .nav-link:hover {
-    color: rgba(182, 181, 181, 0.8);
+    color: rgba(86, 85, 85, 0.8);
     box-shadow: rgba(166, 166, 171, 0.33) 0 7px 29px 0;
 }
 .active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgba(36, 39, 108, 0.91);
+    color: rgba(36, 39, 108, 0.91);
 }
 .btn button {
     border-radius: 20px;
     border: 1px solid white;
     padding: 10px 40px;
     color: white;
-    background: linear-gradient(108.39deg, #FF56BB 6.99%, #FF8F77 119.86%);
+    background: linear-gradient(108.39deg, #56ffb3 6.99%, #d2ff77 119.86%);
     transition: 0.4s;
 }
 .btn button:active {

@@ -1,10 +1,13 @@
-import React from 'react'
+import "./AboutMe.css"
+import Footer from "../footer/Footer.jsx";
 import Nav from "../navbar/Nav.jsx";
 
 const AboutMe = () => {
     return (
-        <div>
+        <div className="about-me">
             <Nav/>
+
+            <Footer/>
         </div>
     )
 }

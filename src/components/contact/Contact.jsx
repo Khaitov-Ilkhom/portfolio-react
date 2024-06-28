@@ -1,10 +1,12 @@
-import React from 'react'
+import "./Contact.css"
+import Footer from "../footer/Footer.jsx";
 import Nav from "../navbar/Nav.jsx";
 
 const Contact = () => {
     return (
-        <div>
+        <div className="contact">
             <Nav/>
+            <Footer/>
         </div>
     )
 }
