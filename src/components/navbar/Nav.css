@@ -1,0 +1,52 @@
+.nav {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+.logo > img {
+    width: 50px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.link li {
+    list-style-type: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.nav-link:hover {
+    color: rgba(182, 181, 181, 0.8);
+    box-shadow: rgba(166, 166, 171, 0.33) 0 7px 29px 0;
+}
+.active {
+    border-bottom: 2px solid white;
+}
+.btn button {
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: white;
+    background: linear-gradient(108.39deg, #FF56BB 6.99%, #FF8F77 119.86%);
+    transition: 0.4s;
+}
+.btn button:active {
+    transform: scale(0.92);
+}

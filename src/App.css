@@ -1,0 +1,10 @@
+.container {
+    min-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    font-family: Arial, SansSerif, sans-serif;
+}
