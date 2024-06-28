@@ -17,11 +17,12 @@ import skill3 from "../images/3 sass_img.svg"
 import skill4 from "../images/4 bootstrap_img.svg"
 import skill5 from "../images/5 tail.svg"
 import skill6 from "../images/6 js_img.svg"
-import skill7 from "../images/7 react_img.svg"
+import skill7 from "../images/7 react_img.png"
 import skill8 from "../images/8 github.svg"
 import skill9 from "../images/9 git.svg"
 import skill10 from "../images/10 typescript.png"
 import skill11 from "../images/11 nodejs.png"
+import skill12 from "../images/webstorm.png"
 const portfolioInfo = [
     {
         id: 1,
@@ -111,42 +112,65 @@ const portfolioInfo = [
 
 const skills = [
     {
+        id: 1,
         img: skill1,
         skillName: "Html"
     },
     {
+        id: 2,
         img: skill2,
         skillName: "Css"
     },
     {
+        id: 3,
         img: skill3,
         skillName: "Sass"
     },
     {
+        id: 4,
         img: skill4,
         skillName: "Bootstrap"
     },
     {
+        id: 5,
         img: skill5,
         skillName: "Tailwind Css"
     },
     {
+        id: 6,
         img: skill6,
         skillName: "JavaScript"
     },
     {
+        id: 7,
         img: skill7,
         skillName: "React"
     },
-
     {
+        id: 8,
+       img: skill10,
+       skillName: "TypeScript"
+    },
+    {
+        id: 9,
+        img: skill11,
+        skillName: "Node Js"
+    },
+    {
+        id: 10,
         img: skill8,
         skillName: "GitHub"
     },
     {
+        id: 11,
         img: skill9,
         skillName: "Git"
+    },
+    {
+        id: 12,
+        img: skill12,
+        skillName: "Webstorm"
     }
 ]
 
-export {portfolioInfo}
+export {portfolioInfo, skills}
