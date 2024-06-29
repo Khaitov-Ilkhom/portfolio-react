@@ -46,10 +46,10 @@
 }
 .btn button {
     border-radius: 20px;
-    border: 1px solid white;
+    border: 1px solid #CAE0EB;
     padding: 10px 40px;
-    color: white;
-    background: linear-gradient(108.39deg, #56ffb3 6.99%, #d2ff77 119.86%);
+    color: #231050;
+    background: linear-gradient(0.25turn, #CAE0EB, #a6bdc9);
     transition: 0.4s;
 }
 .btn button:active {
